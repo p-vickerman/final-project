@@ -34,17 +34,6 @@ body{
   border-radius: 0px;
   border-left: 1px solid #ccc;
 }
-#voiceSelect {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-label[for=voiceSelect]{
-  display: flex;
-  align-items: center;
-}
-
-
 #rate-control {
   display: flex;
   align-items: center;
