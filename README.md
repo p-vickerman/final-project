@@ -1,44 +1,23 @@
 # Final Project
 
-In this project, you'll build a web application that does anything you want! 
+This is a language translator that will translate your text as well as speak the translation in order to aid in your recital.
 
-It must meet the project requirements below, but beyond that, feel free to use your creativity to decide on what your app will do.
+## Key Features
 
-## Requirements
 
-* **Your app has at least three distinct "features"**
-  * If you are building a travel planning application, one feature could be allowing users to create a new trip
-* Your project contains a `README.md` file that explains what your project is and how to use it
-* Your project is hosted on GitHub pages
-* Your code is clean
-  * Proper indentation
-  * No unnecessary repetition
-  * Variables as camelCase
+* **This app features the following:
+*Translation support for 90 different language combinations
+*The ability to copy the translation so you may paste into the word processor of your choice.
+*The ability to read the translation back to the user and the ability to adjust the rate of playback to better aid you in your own respective recital.
 
-## Project ideas
+## App function
 
-* Travel planner
-* Budget manager
-* Resume builder
-* Shift scheduling app
-* Chat bot
-* Music making app
-* Games
-  * PacMan
-  * Chess
-* Do something with an external API: https://github.com/public-apis/public-apis
-  * Slack / discord bot
-  * Recreate Reddit
-  * Pokedex
+* User selects which language(s) for both input and output. The user can then type into the text placeholder, on the left, the wording they would like to have translated. Once input is complete, the user would click the translate text button to have the text translated to their target language and text will be displayed on the right text placeholder. While the API is fetching and parsing the data, the user will see the text, "Translating...".
 
-And so many more possibilities!
+* User has the option to have the translated text cited back to them, which allows for better understanding and aids in the user's respective recital of the translation. In order to do so, the user would push the play icon on the respective language they would like to hear back.
 
-## Recommendations
+* User has the option to adjust the rate at which they would like to hear the translation cited back to them. The rate slider allows for the user to opt for slow speech when slid to the left and rapid speech as the slider is slid to the right.
 
-* Start out by creating your project's foundation in HTML.
-* Frequently make commmits in git to save your progress.
-* Build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
-* Keep your code meticulously organized as you go. 
-* Use proper indentation, whitespace, and comments. 
-* Try to write a function for each separate piece of functionality that exists in your code. This will make your code "modular" and easier to build off of.
-* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition. DRY - Don't Repeat Yourself!
+* User can copy the translation using the copy button to allow for pasting into a word processor of their choice for saving and printing.
+
+** Translation API documentation can be found at: https://mymemory.translated.net/doc/spec.php
